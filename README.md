@@ -11,5 +11,7 @@ Then open a web browser, google chrome for example and in the in the url section
     Or
       GET http://localhost:8080/myapi/?action=checkprime&number=89      -> {"isPrime": true}
 
+Faulty inputs are not considered in this version, expect in the number parameters, so the GET-request has to be formatted properly.
+
 
 Functions calculating sum and prime evaluator are tested using mocha.js and chai.js.
